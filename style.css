@@ -149,3 +149,91 @@ body {
 
 /* User Card Style */
 
+.user-card h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  margin-top: 140px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0px 100px;
+}
+
+.card-content {
+  background-color: antiquewhite;
+  width: 343px;
+  height: 243px;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+
+.card-pf {
+  display: flex;
+  align-items: center;
+}
+
+.card-pf img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card-pf strong {
+  display: block;
+  font-size: 14px;
+  color: #333;
+}
+
+.card-pf span {
+  display: block;
+  font-size: 12px;
+  color: #aaa;
+}
+
+/* Webflow Section Style */
+
+.webflow-section {
+  background-color: #f7f7f7;
+  text-align: center;
+  max-width: 1240px;
+  height: 700px;
+  margin-left: 300px;
+  border-radius: 14px;
+}
+
+.webflow-content {
+  margin-top: 210px;
+  background-color: rgba(255, 255, 255, 0.037);
+  padding-top: 70px;
+}
+
+.webflow-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.webflow-section p{
+    color: #25243284;
+    font-size: 16px;
+}
+
+.webflow-section img{
+    margin-top: 20px;
+    border-radius: 48px;
+}
+
+.webflow-section button{
+    padding: 15px 40px;
+    background-color: #4e47ff;
+    color: #f7f7f7;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Form Section Style */
