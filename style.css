@@ -281,3 +281,42 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+
+/* footer section style */
+
+.footer-section{
+text-align: center;
+margin-bottom: 103px;
+margin-top: 104px;
+}
+
+.footer-section h1{
+  color: #4e47ff;
+  font-size: 100px;
+  font-weight: bolder;
+  position: relative;
+  top: 50px;
+}
+
+.footer-section p{
+  color: #8987A1;
+  margin-left: 600px;
+  margin-right: 650px;
+}
+
+.links{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
